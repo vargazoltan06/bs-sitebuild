@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Catamaran;
+    src: url(/fonts/Catamaran/static/Catamaran-ExtraLight.ttf);
+  }
+
+@font-face {
+    font-family: Lato;
+    src: url(/fonts/Lato/Lato-Regular.ttf);
+  }
+
+@font-face {
+    font-family: Muli;
+    src: url(/fonts/Mulish/Mulish-VariableFont_wght.ttf);
+  }
+
+
+html {
+    scroll-behavior: smooth
+}
+
+
+.catamaran {
+    font-family: "Catamaran", Helvetica, Arial, sans-serif ;
+}
+
+.lato {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.muli {
+    font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+
+.background-pattern {
+    background-image: url(/img/bg-pattern.png), linear-gradient(90deg, rgb(218, 36, 49), rgb(137, 87, 161) );
+    background-repeat: repeat;
+}
+
+@media screen and (min-width: 992px) {
+    .background {
+        background-image: url(/img/bg-pattern.png), linear-gradient(90deg, rgb(218, 36, 49), rgb(137, 87, 161) );
+        background-repeat: repeat;
+    }
+    .background-pattern {
+        background-image: none;
+    }
+  }
+
+.menu--text:hover {
+    color: #fff;
+} 
+
+.navbar--yellow {
+    color: rgb(250, 204, 83);
+    font-size: 1.3rem;
+}
+
+.navbar--yellow-lg:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__links {
+    color: #000;
+    padding: 1rem;
+}
+
+.nav__links:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button--white {
+    color: #fff;
+    transition: 300ms
+}
+
+.button--white:hover {
+    color: #fdcc52;
+    border-color: #fdcc52;
+}
+
+.image--div {
+    position: relative;
+}
+
+.image {
+    position: relative;
+    width: 400px;
+    height: 800px;
+}
+
+@media screen and (min-width: 992px) {
+    .image {
+        position: relative;
+        width: 280px;
+        height: 550px;
+    }
+  }
+
+.image--inside {
+    position: absolute;
+    top: 8.8rem;
+    width: 351px;
+    height: 613px;
+}
+
+.image--inside2 {
+    position: absolute;
+    top: 5.8rem;
+    width: 351px;
+    height: 613px;
+} 
+
+@media screen and (min-width: 992px) {
+    .image--inside {
+        position: absolute;
+        width: 246px;
+        height: 422px;
+        top: 4rem;
+    }
+    .image--inside2 {
+        position: absolute;
+        width: 246px;
+        height: 422px;
+        top: 4rem;
+    }
+  }
+
+.background--yellow {
+    background-color: rgb(254, 201, 71);
+}
+
+.image--badge {
+    height: 4rem;
+}
+
+.stopWaiting--bg {
+    position: relative;
+}
+
+.stopWaiting--bg::after {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background-image: url(/img/bg-cta.jpg);
+    background-size: cover;
+    z-index: -1;
+    filter: brightness(.5);
+}
+
+.btn--border {
+    border: #fff 1px solid;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.google-icon {
+    color: #fff;
+    background-color: rgb(221, 76, 57);
+    opacity: 0.9;
+    border-radius: 5rem;
+    height: 5rem;
+    padding: 0.7rem;
+    padding-top: 1rem;
+}
+
+.google-icon:hover {
+    opacity: 1;
+}
+
+.facebook-icon {
+    color: #fff;
+    background-color: rgb(59, 89, 153);
+    opacity: 0.9;
+    border-radius: 5rem;
+    height: 5rem;
+    padding: 1.7rem;
+    padding-top: 1rem;
+}
+
+.facebook-icon:hover {
+    opacity: 1;
+}
+
+.twitter-icon {
+    color: #fff;
+    background-color: rgb(29, 161, 243);
+    opacity: 0.9;
+    border-radius: 5rem;
+    height: 5rem;
+    padding: 1.1rem;
+}
+
+.twitter-icon:hover {
+    opacity: 1;
+}
+
+.heart-icon {
+    color: rgb(215, 76, 50);
+}
+
+.background--black {
+    background-color: rgb(34, 34, 34);
+}
+
+.footer__text {
+    color: rgb(93, 93, 93);
+}
+
+.footer__link:hover {
+    color: #fdcc52;
+}
+
+#discover {
+    scroll-behavior: smooth;
+}
+
+.icon-purple {
+    color: rgb(173, 50, 94);
+}
